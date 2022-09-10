@@ -1,0 +1,14 @@
+.orders {
+  padding: 20px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.orders > h1 {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.orders__order > h2 {
+  padding-left: 20px;
+}
