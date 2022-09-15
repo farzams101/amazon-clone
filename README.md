@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Amazon Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a clone of :shopping_cart: **Amazon.com**. I created it while learning React.
 
-## Available Scripts
+> Live :link: : https://clone-593e7.web.app
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Add to Cart
+- Remove from Cart
+- Login and Logout
+- Payment
+- Order History
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [ReactJS for UI](https://reactjs.org/)
+- [Firebase Auth for user authentication](https://firebase.google.com/docs/auth)
+- [Firestore for database](https://firebase.google.com/docs/firestore)
+- [Stripe for accepting payments](https://stripe.com/)
+- [Cloud Functions for running the backend](https://firebase.google.com/docs/functions)
 
-### `npm test`
+## Acknowledgements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I created the project with the help of Clever Programmer's YouTube [video](https://youtu.be/RDV3Z1KCBvo)
+and taking help from [Stack Overflow](https://stackoverflow.com) whenever I got stuck.
 
-### `npm run build`
+I made the following improvements to the application along the way:
+- Improved the UI
+- Fixed bugs with payment
+- Replaced deprecated libraries with newer ones
+- Added missing data validation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://user-images.githubusercontent.com/53323207/190238484-5ea6c19b-1e77-4ca8-9062-869c1cab985f.mp4
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Live :link: : https://clone-593e7.web.app/
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Note: I've not deployed Cloud Functions as it requires payment. So, the payment feature will not work in the deployed app.
